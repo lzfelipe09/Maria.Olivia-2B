@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Casa da Pizza</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-image: url('https://images.unsplash.com/photo-1601924582971-c74e5b4dbd96');
+      background-size: cover;
+      background-position: center;
+      padding: 80px 20px;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: goldenrod;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin: 5px;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .about {
+      max-width: 800px;
+      margin: auto;
+    }
+    .about img {
+      width: 300px;
+      border-radius: 10px;
+    }
+    .cardapio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .item {
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #111;
+      color: #ccc;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <h1>a casa da pizza</h1>
+  <p>Sabor e tradição em cada fatia</p>
+  <button class="btn">Abrir Cardápio</button>
+  <button class="btn">Reservar</button>
+</header>
+
+<section id="sobre" class="about">
+  <h2>Sobre a a casa da pizza</h2>
+  <img src="https://images.unsplash.com/photo-1601924928331-c99e1b1d6ba4" alt="Pizza artesanal">
+  <p>
+    Na nossa pizzaria, cada pizza é feita com ingredientes selecionados e muito carinho.
+    Somos apaixonados por sabores autênticos e tradição italiana. Nossa missão é oferecer
+    uma experiência gastronômica memorável com qualidade e sabor incomparáveis.
+  </p>
+</section>
+
+<section id="cardapio">
+  <h2>Nosso Cardápio</h2>
+  
+  <h3>Pizzas</h3>
+  <div class="cardapio">
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90" alt="Pizza Margherita">
+      <h4>Margherita</h4>
+      <p>Molho de tomate, mussarela, manjericão fresco.</p>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be5f" alt="Pizza Pepperoni">
+      <h4>Pepperoni</h4>
+      <p>Molho de tomate, mussarela, pepperoni crocante.</p>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1601924928232-30df66c9b3de" alt="Pizza Quatro Queijos">
+      <h4>Quatro Queijos</h4>
+      <p>Mussarela, parmesão, gorgonzola, catupiry.</p>
+    </div>
+  </div>
+
+  <h3 style="margin-top: 60px;">Bebidas</h3>
+  <div class="cardapio">
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1577803645773-59c3b3f53b94" alt="Água">
+      <h4>Água Mineral</h4>
+      <p>500ml com ou sem gás</p>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1607082349567-391ff4fd2d9f" alt="Suco natural">
+      <h4>Suco Natural</h4>
+      <p>Sabores variados com fruta fresca</p>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="Vinho">
+      <h4>Vinho Tinto</h4>
+      <p>Taça de vinho seco ou suave</p>
+    </div>
+  </div>
+</section>
+
+<footer id="contato">
+  <p>&copy; 2025 A Casa da Pizza - Todos os direitos reservados.</p>
+  <p>Contato: (11) 99999-9999 | contato@acasadapizza.com.br</p>
+</footer>
+
+</body>
+</html>
+
+Site criado por: @felipe._.lz 
+:)
